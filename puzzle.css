@@ -1,0 +1,63 @@
+body{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style:normal;
+    text-align:center;
+
+}
+
+.board1, .board2, .board3{
+    width:360px;
+    height:360px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+    margin-bottom:50px;
+}
+.board1{
+    background-color: rgb(60, 92, 222);
+    border:10px solid rgb(60, 92, 222);
+}
+.board2{
+    background-color: orange;
+    border:10px solid orange;
+}
+.board3{
+    background-color: green;
+    border:10px solid green;
+}
+
+.board1 img, .board2 img, .board3 img{
+    width:118px;
+    height: 118px;
+}
+
+.board1 img{
+    border: 1px solid rgb(60, 92, 222);
+}
+.board2 img{
+    border: 1px solid orange;
+}
+.board3 img{
+    border: 1px solid green;
+}
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:50px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.turn1{
+    color:rgb(60, 92, 222);
+}
+.turn2{
+    color:orange;
+}
+.turn3{
+    color:green;
+}
